@@ -2,7 +2,6 @@ import '../model/address_model.dart';
 import '../repositories/address_api_repository.dart';
 import '../repositories/address_local_repository.dart';
 
-/// Regras de negócio da consulta de endereços: valida entradas e combina os repositórios.
 class AddressService {
   AddressService(this._apiRepository, this._localRepository);
   final AddressApiRepository _apiRepository;

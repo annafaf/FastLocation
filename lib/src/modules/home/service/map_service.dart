@@ -3,7 +3,6 @@ import 'package:geolocator/geolocator.dart';
 import 'package:map_launcher/map_launcher.dart';
 import '../model/address_model.dart';
 
-/// Traça a rota da localização atual do dispositivo até o endereço consultado.
 class MapService {
   static Future<void> openRoute(AddressModel address) async {
     final query = [address.logradouro, address.bairro, address.localidade, address.uf, address.cep, 'Brasil']

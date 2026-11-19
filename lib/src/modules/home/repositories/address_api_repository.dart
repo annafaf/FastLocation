@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
 import '../model/address_model.dart';
 
-/// Comunicação com a API externa (ViaCEP) para consulta de endereços.
 class AddressApiRepository {
   AddressApiRepository(this._dio);
   final Dio _dio;

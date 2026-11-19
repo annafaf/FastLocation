@@ -2,7 +2,6 @@ import 'package:hive/hive.dart';
 
 part 'address_model.g.dart';
 
-/// Estrutura de dados para o retorno da consulta da API externa (ViaCEP) e para o histórico local.
 @HiveType(typeId: 0)
 class AddressModel {
   AddressModel({

@@ -29,7 +29,6 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    // Reação do MobX: exibe um aviso sempre que a consulta resultar em erro.
     _errorReaction = reaction<String?>((_) => widget.controller.error, (message) {
       if (message == null || !mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(message)));

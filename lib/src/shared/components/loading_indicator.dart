@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Indicador de carregamento compartilhado entre os módulos durante consultas externas.
 class LoadingIndicator extends StatelessWidget {
   const LoadingIndicator({super.key});
 

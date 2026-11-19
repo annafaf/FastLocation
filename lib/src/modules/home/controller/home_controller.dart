@@ -7,7 +7,6 @@ part 'home_controller.g.dart';
 // ignore: library_private_types_in_public_api
 class HomeController = HomeControllerBase with _$HomeController;
 
-/// Controller MobX da tela Home: dispara consultas e expõe o estado reativo para a página.
 abstract class HomeControllerBase with Store {
   HomeControllerBase(this._service);
   final AddressService _service;

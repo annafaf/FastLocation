@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../model/address_model.dart';
 
-/// Componente de destaque do último endereço consultado, com atalho para traçar rota.
 class LastAddressCard extends StatelessWidget {
   const LastAddressCard({super.key, required this.address, required this.onRoute});
   final AddressModel address;

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import '../../../routes/app_routes.dart';
 import '../../../shared/colors/app_colors.dart';
 
-/// Tela de abertura: anima a marca e redireciona automaticamente para a home.
 class InitialPage extends StatefulWidget {
   const InitialPage({super.key});
 

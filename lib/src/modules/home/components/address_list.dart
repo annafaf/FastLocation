@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../model/address_model.dart';
 
-/// Componente de lista dos endereços retornados pela consulta.
 class AddressList extends StatelessWidget {
   const AddressList({super.key, required this.addresses, required this.onRoute});
   final List<AddressModel> addresses;

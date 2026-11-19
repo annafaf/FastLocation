@@ -13,7 +13,6 @@ class _HistoryPageState extends State<HistoryPage> {
   @override
   void initState() {
     super.initState();
-    // Carregamento automático do histórico ao acessar a página.
     widget.controller.loadHistory();
   }
 
